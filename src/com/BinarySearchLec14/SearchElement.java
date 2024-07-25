@@ -8,7 +8,7 @@ public class SearchElement {
     }
     static int binarySearch(int arr[],int target){
         int start =0;
-        int end=arr.length-1;
+        int end=arr.length-1;//end
 
         while(start<=end){
             //        int mid=(start+end)/2;

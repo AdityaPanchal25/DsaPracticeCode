@@ -12,8 +12,8 @@ System.out.println(searchRange(nums,target));
             int arr[]={-1,-1};
 
             arr[0]=search(nums,target,true);
-            if( arr[0] !=-1){
-                arr[1]=search(nums,target,false);
+            if( arr[0] !=-1) {
+                arr[1] = search(nums, target, false);
             }
             return arr;
         }

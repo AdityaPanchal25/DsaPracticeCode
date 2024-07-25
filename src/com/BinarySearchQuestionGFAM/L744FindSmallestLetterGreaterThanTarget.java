@@ -1,10 +1,10 @@
 package com.BinarySearchQuestionGFAM;
 
 public class L744FindSmallestLetterGreaterThanTarget {
-    public static void main(String args[]){
-        char letters[]={'c','f','j'};
-       char target='e';
-    System.out.println(nextGreatestLetter(letters,target));
+    public static void main(String args[]) {
+        char letters[] = {'c', 'f', 'j'};
+        char target = 'e';
+        System.out.println(nextGreatestLetter(letters, target));
     }
     public static char nextGreatestLetter(char[] letters, char target) {
         int start = 0;
